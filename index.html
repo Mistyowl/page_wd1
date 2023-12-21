@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://placehold.co/400x400" alt="My avatar" class="avatar">
+        <h1 class="title__main">Artyom Medin</h1>
+        <h2 class="title__subtitle">Frontend Developer, Web Designer</h2>
+    </header>
+
+    <main>
+        <section class="skill">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list:</summary>
+                <ol class="skills__ol">
+                    <li>1. Figma</li>
+                    <li>2. VS Code</li>
+                    <li>3. HTML&CSS</li>
+                </ol>
+            </details>
+        </section>
+        <article class="article">
+            <h2>Article about me</h2>
+            <p>
+                Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты. Возвращайся повстречался, предложения если над языком вопрос правилами большого своего до его? Диких скатился, правилами заголовок что текста гор. Осталось, которое. Страна всеми его даль ему вопрос жаренные текстов это.
+            </p>
+        </article>
+        <section class="gallery">
+            <h2>My gallery</h2>
+            <img src="https://placehold.co/400x600" alt="My arts" class="gallery__img">
+            <img src="https://placehold.co/400x600" alt="My arts" class="gallery__img">
+            <img src="https://placehold.co/400x600" alt="My arts" class="gallery__img">
+        </section>
+        <hr class="separator">
+        <section class="video">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/UcT5jcSQ1bU" title="Chill Vibes 👻 Lofi Hip Hop Mix 🎵 lofi beats to chill / relax to" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <section class="hobbies">
+            <h2>My hobbies</h2>
+            <details>
+                <summary>Hobbies list:</summary>
+                <ul>
+                    <li>Modelling 3D Arts</li>
+                    <li>Watch Youtube</li>
+                    <li>Learn new skill</li>
+                </ul>
+            </details>
+        </section>
+        <section class="education">
+            <h3>Education</h3>
+            <table class="education__table">
+                <thead>
+                    <tr>
+                        <th>School</th>
+                        <th>Profession</th>
+                        <th>Years</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>DIT</td>
+                        <td>Tech. Programmer</td>
+                        <td>2012 - ???</td>
+                    </tr>
+                    <tr>
+                        <td>IT-Cube</td>
+                        <td>Web Design</td>
+                        <td>2023 - 2024</td>
+                    </tr>
+                    <tr>
+                        <td>IT-Cube</td>
+                        <td>VR/AR</td>
+                        <td>2022-2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="quote">
+            <blockquote>
+                «Есть три ответа на результат дизайна – да, нет и НИЧЕГО СЕБЕ! «Ничего себе» – это то, к чему надо стремиться». <i>© Milton Glaser</i> 
+            </blockquote>
+        </section>
+        <section class="interaction">
+            <form action="mailto:artyom.medin@yandex.ru" method="post" target="_blank" class="form">
+                <fieldset>
+                    <legend>Required fields</legend>
+
+                    <label for="firstNameID">First name:</label>
+                    <input type="text" name="firstName" id="firstNameID" placeholder="Type your First Name" required class="form__input">
+
+                    <label for="secondNameID">Second name:</label>
+                    <input type="text" name="secondName" id="secondNameID" placeholder="Type your Second Name" required class="form__input">
+
+                    <label for="emailID">Email:</label>
+                    <input type="email" name="email" id="emailID" placeholder="Type your mail" required class="form__input">
+                </fieldset>
+                <textarea name="questions" id="questionsID" cols="30" rows="10" placeholder="Type your questions???" class="textarea"></textarea>
+                <button type="submit" class="form__submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <address class="contracts">
+            <a href="tel:+78005553535" class="contacts__link">+78005553535</a>
+            <br>
+            <a href="mailto:artyom.medin@yandex.ru" class="contacts__link">artyom.medin@yandex.ru</a>
+        </address>
+    </footer>
+</body>
+</html>
