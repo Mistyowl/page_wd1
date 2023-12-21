@@ -7,6 +7,7 @@ header {
     text-align: center;
 }
 .avatar {
+    margin-top: 24px;
     height: 300px;
     width: 300px;
     border-radius: 6px;
